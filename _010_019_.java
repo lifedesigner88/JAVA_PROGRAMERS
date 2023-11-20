@@ -33,8 +33,8 @@ class Solution {
     }
 }
 
-// 012 편지
 
+// 012 편지
 class Solution {
     public int solution(String message) {
         int answer = message.length()*2;
@@ -54,3 +54,31 @@ class Solution {
         return numbers[arrayLength-2]*numbers[arrayLength-1];
     }
 }
+
+// 014 원하는 문자열 찾기
+
+class Solution {
+    public int solution(String myString, String pat) {
+        
+        int answer = myString.toLowerCase().indexOf(pat.toLowerCase());
+        if (answer >= 0) return 1;        
+        return 0;
+
+    }
+}
+
+
+// 015 부분 문자열인지 확인하기
+
+class Solution {
+    public int solution(String myString, String pat) {
+        
+        int answer = myString.toLowerCase().indexOf(pat.toLowerCase());
+        if (answer >= 0) return 1;        
+        return 0;
+
+    }
+}
+
+// 016 배열의 원소만큼 추가하기
+
